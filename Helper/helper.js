@@ -2,6 +2,7 @@
 var config = require('./config').config
 
 /*helper*/
+//MOdificacion del Helper by HOhammed
 var sql = require('mssql')
 
 function query(procedure, parameters, callBackOk, callBackError) {
